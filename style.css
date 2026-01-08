@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding-top: 10px;
+    height: 100vh;
+    background: linear-gradient(45deg, #000f94, #000530);
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;   
+    align-items: center;      
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Arial;
+    color: azure;
+    font-size: 150px;
+    padding-left:413px;
+    padding-right: 413px;
+    padding-bottom: 5px;
+    background: rgba(0,0,0, 0.5);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 5px;
+    border-style: solid; 
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-top: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3) ;
+}
+#counter {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+    
+    background: linear-gradient(45deg, #3b3b3b, #111111);
+    border: 3px solid black;
+    
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px;
+}
+.btn {
+    margin-top: 100px;
+    cursor: pointer;
+    
+    margin-top: 50px;
+    padding: 30px;
+    
+    border: 5px solid black;
+    border-radius: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    
+    
+    background: linear-gradient(45deg, #6a11cb, #2575fc) padding-box;
+    
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3) ;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {  transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.upgrade_btn {
+    
+    
+    cursor: not-allowed;
+    margin-top: 50px;
+    padding: 30px;
+    
+    border: 5px solid black;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+    background-color: #250000;
+    transition: transform 0.2s, box-shadow 0.2s;
+    
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3) ;
+}
+.upgrade_btn.active {
+    cursor: pointer;
+    background-color: #8aff73;
+}
+.upgrade_btn.active:hover {  transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.upgrade_btn.active:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
